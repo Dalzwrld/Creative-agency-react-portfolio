@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Hero from './components/hero'
 import Search from './components/search-input'
-import LandingPage from './components/landing-page'
+import ProjectList from './components/project-list'
 import ProjectCard from './components/project-card'
 import Form from './components/form'
 import Footer from './components/footer'
