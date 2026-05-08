@@ -19,7 +19,7 @@ export default function App() {
   );
 
   return (
-    <div className="bg-bg min-h-screen font-body">
+    <div className="bg-bg min-h-screen font-[Inter, sans-serif]">
       <HeroSection />
       <SearchBar search={search} setSearch={setSearch} />
       <ProjectList projects={filteredProjects} />

@@ -24,7 +24,7 @@ function ProjectForm({ addProject }) {
       onSubmit={handleSubmit}
       className="max-w-xl mx-auto mt-12 bg-[#1E293B] p-6 rounded-2xl space-y-4"
     >
-      <h2 className="text-xl font-heading font-semibold">
+      <h2 className="text-xl font-[Playfair_Display, serif] font-semibold">
         Add New Project
       </h2>
 
