@@ -3,7 +3,7 @@ import React from 'react'
 function HeroSection() {
   return (
     <section className="text-center py-16 px-4">
-      <h1 className="text-4xl md:text-5xl font-[Playfair_Display, serif] font-bold text-text mb-4">
+      <h1 className="text-4xl md:text-5xl font-[Playfair_Display] font-bold text-text mb-4">
         Crafting Digital Experiences
       </h1>
       <p className="text-[#94A3B8] max-w-xl mx-auto">

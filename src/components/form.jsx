@@ -24,7 +24,7 @@ function ProjectForm({ addProject }) {
       onSubmit={handleSubmit}
       className="max-w-xl mx-auto mt-12 bg-[#1E293B] p-6 rounded-2xl space-y-4"
     >
-      <h2 className="text-xl font-[Playfair_Display, serif] font-semibold">
+      <h2 className="text-xl font-[Playfair_Display] font-semibold">
         Add New Project
       </h2>
 
@@ -33,14 +33,14 @@ function ProjectForm({ addProject }) {
         placeholder="Project Title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        className="w-full px-4 py-3 rounded-xl bg-bg text-text placeholder-muted outline-none focus:ring-2 focus:ring-primary"
+        className="w-full px-4 py-3 rounded-xl bg-[#0F172A] text-[#E2E8F0] placeholder-[#94A3B8] outline-none focus:ring-2 focus:ring-[#6366F1]"
       />
 
       <textarea
         placeholder="Project Description"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        className="w-full px-4 py-3 rounded-xl bg-bg text-text placeholder-muted outline-none focus:ring-2 focus:ring-primary"
+        className="w-full px-4 py-3 rounded-xl bg-[#0F172A] text-[#E2E8F0] placeholder-[#94A3B8] outline-none focus:ring-2 focus:ring-[#6366F1]"
       />
 
       <button
