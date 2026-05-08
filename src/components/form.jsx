@@ -22,7 +22,7 @@ function ProjectForm({ addProject }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-xl mx-auto mt-12 bg-card p-6 rounded-2xl space-y-4"
+      className="max-w-xl mx-auto mt-12 bg-[#1E293B] p-6 rounded-2xl space-y-4"
     >
       <h2 className="text-xl font-heading font-semibold">
         Add New Project
@@ -45,7 +45,7 @@ function ProjectForm({ addProject }) {
 
       <button
         type="submit"
-        className="w-full py-3 rounded-xl bg-primary hover:bg-indigo-500 transition font-medium"
+        className="w-full py-3 rounded-xl bg-[#6366F1] hover:bg-indigo-500 transition font-medium"
       >
         Add Project
       </button>

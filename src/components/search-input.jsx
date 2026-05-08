@@ -6,7 +6,7 @@ function SearchBar({ search, setSearch }) {
         placeholder="Search projects..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="w-full max-w-md px-4 py-3 rounded-xl bg-card text-text 
+        className="w-full max-w-md px-4 py-3 rounded-xl bg-[#1E293B] text-text 
         placeholder-muted outline-none focus:ring-2 focus:ring-primary transition"
       />
     </div>
