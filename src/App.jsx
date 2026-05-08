@@ -6,34 +6,25 @@ import ProjectCard from './components/project-card'
 import Form from './components/form'
 import Footer from './components/footer'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [projects, setProjects] = useState([]);
+  const [search, setSearch] = useState("");
+
+  function addProject(project) {
+    setProjects([...projects, project]);
+  }
+
+  const filteredProjects = projects.filter((p) =>
+    p.title.toLowerCase().includes(search.toLowerCase())
+  );
 
   return (
-    <div className="">
-      <div className="">
-        <Hero />  
-      </div>
-
-      <div className="">
-        <Search />
-      </div>
-
-      <div className="">
-        <LandingPage />
-      </div>
-
-      <div className="">
-        <Form />
-      </div>
-      
-      <div className="">
-        <Footer />  
-      </div> 
-
-      <button>Click Me</button>
+    <div className="bg-bg min-h-screen font-body">
+      <HeroSection />
+      <SearchBar search={search} setSearch={setSearch} />
+      <ProjectList projects={filteredProjects} />
+      <AddProjectForm addProject={addProject} />
+      <Footer />
     </div>
-  )
+  );
 }
-
-export default App
