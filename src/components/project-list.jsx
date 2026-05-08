@@ -1,7 +1,7 @@
 function ProjectList({ projects }) {
   if (projects.length === 0) {
     return (
-      <p className="text-center text-muted mt-10">
+      <p className="text-center text-[#94A3B8] mt-10">
         No projects yet. Add your first one 👀
       </p>
     );

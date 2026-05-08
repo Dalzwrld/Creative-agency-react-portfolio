@@ -4,7 +4,7 @@ function ProjectCard({ project }) {
       <h3 className="text-xl font-heading font-semibold mb-2">
         {project.title}
       </h3>
-      <p className="text-muted text-sm">
+      <p className="text-[#94A3B8] text-sm">
         {project.description}
       </p>
     </div>

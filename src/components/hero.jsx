@@ -6,7 +6,7 @@ function HeroSection() {
       <h1 className="text-4xl md:text-5xl font-heading font-bold text-text mb-4">
         Crafting Digital Experiences
       </h1>
-      <p className="text-muted max-w-xl mx-auto">
+      <p className="text-[#94A3B8] max-w-xl mx-auto">
         Explore our curated portfolio of modern design and development projects.
       </p>
     </section>
