@@ -13,4 +13,4 @@ function HeroSection() {
   );
 }
 
-export default Hero
+export default HeroSection

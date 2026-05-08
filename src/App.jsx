@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Hero from './components/hero'
-import Search from './components/search-input'
+import HeroSection from './components/hero'
+import SearchBar from './components/search-input'
 import ProjectList from './components/project-list'
 import ProjectCard from './components/project-card'
-import Form from './components/form'
+import ProjectForm from './components/form'
 import Footer from './components/footer'
 
 export default function App() {
@@ -23,7 +23,7 @@ export default function App() {
       <HeroSection />
       <SearchBar search={search} setSearch={setSearch} />
       <ProjectList projects={filteredProjects} />
-      <AddProjectForm addProject={addProject} />
+      <ProjectForm addProject={addProject} />
       <Footer />
     </div>
   );

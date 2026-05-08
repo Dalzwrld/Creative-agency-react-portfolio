@@ -1,6 +1,10 @@
+import { Search } from 'lucide-react'
+
 function SearchBar({ search, setSearch }) {
   return (
     <div className="flex justify-center px-4 mb-8">
+      <Search className="size-4 align-middle"/>
+      
       <input
         type="text"
         placeholder="Search projects..."
